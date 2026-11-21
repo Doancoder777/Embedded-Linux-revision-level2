@@ -1,0 +1,42 @@
+# Linux programming examples
+/Linux-Programming-N-System-main/
+
+# Compiled binaries and libraries
+*.o
+*.a
+*.so
+*.bin
+*.elf
+*.out
+*.exe
+
+# Executables without extension (from Makefile: -o app / -o hello)
+app
+hello
+
+# Linux kernel module build files
+*.ko
+*.mod
+*.mod.c
+*.symvers
+Module.symvers
+modules.order
+.*.cmd
+.tmp_versions/
+
+# Big folders: kernel source, toolchain, u-boot, rootfs
+BBB/*
+!BBB/note.md
+
+# Downloaded archives
+*.tar.gz
+*.tar.xz
+*.zip
+
+# Editor temporary files
+*.swp
+*.swo
+*.swn
+
+/Linux-Programming-N-System-main/
+/Linux-Programming-N-System-main.*
